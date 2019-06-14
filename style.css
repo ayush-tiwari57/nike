@@ -1,0 +1,96 @@
+body{
+    /* background: rgb(10, 107, 54); */
+    background: white;
+    color: black;
+    
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+#navbar{
+    background: rgba(10, 107, 54, 0.7);
+    border-bottom: black 3px solid;
+}
+#navbar a{
+    color: white;
+}
+.navbar-brand img{
+    width: 70px;    
+    margin-left: 30px;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+#navbar a:hover{
+    color: white;
+    font-size: 18px;
+    border-bottom: black 3px solid;
+    border-top: black 3px solid;
+}
+#slider1{
+    background: url('img/nike-women-fall-2014.jpeg') no-repeat center center/cover;
+    min-height: 100vh;
+    min-width: 100%;
+}
+#slider2{
+    background: url('img/MW-FI237_nike03_20170315193808_MG.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+#home .dark-overlay{
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 150px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#deal{
+    background: white;
+}
+#deal img{
+    height: 30vh;
+    width: 30vh;
+    margin: 20px;
+}
+.box{
+    flex-wrap: wrap;
+}
+#deal i{
+    color: goldenrod;
+}
+/* .card1{
+    background: white;
+    padding-bottom: 40px;
+} */
+
+
+
+
+
+/* Featured */
+
+
+#featuredcollection{
+    background: rgb(10, 107, 54);
+    height: 100vh;
+}
+#featuredcollection img{
+    width: 25vw;
+    height: 40vh;
+}
+#clothing img{
+    width: 26vw;
+    height: 60vh;
+}
+.strike{
+    text-decoration: line-through;
+}
